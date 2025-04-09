@@ -47,3 +47,9 @@ Terraform has a built-in command for advanced state management
 ```bash
 terraform state list
 ```
+
+Terraform has an interactive console that you can use to inspect the current state and run commands.
+
+```bash
+terraform login
+```

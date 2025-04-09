@@ -1,4 +1,14 @@
 terraform {
+  # https://app.terraform.io/app/linnie-organization-name/workspaces
+  cloud {
+    organization = "linnie-organization-name"
+    workspaces {
+      # https://app.terraform.io/app/linnie-organization-name/workspaces/learn-terraform-aws
+      name = "learn-terraform-aws"
+    
+    }
+  }
+
   required_providers {
     aws = {
       source  = "hashicorp/aws"
